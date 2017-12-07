@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/tag/tag",
+    "pages/my/my",
+    "pages/template/windowBar/windowBar"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/tag/tag",
+        "text": "标签"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ],
+    "color": "#000000",
+    "selectedColor": "#698B22",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff"
+  }
+}
