@@ -1,7 +1,0 @@
-<template name="searchBar">
-  <view class="searchBar">
-    <text class="canteenSeleter" bindtap="showCanteenSeletor" id="{{canteen.index}}">{{canteen.name}}▼</text>
-    <input class="searchBox" disabled="true" placeholder="{{searchHint}}" placeholder-style="color: #9ACD32; font-size: 18px; padding-left: 9px"  />
-    <text class="searchHistory" wx:for="{{searchHistory}}" wx:key="*this" data-history="{{item}}" bindtap="onTapSearchHistory">{{item}}</text>
-  </view>
-</template>
