@@ -1,0 +1,4 @@
+<import src="../template/searchBar/searchBar.wxml" />
+
+<!--pages/home/home.wxml-->
+<template is="searchBar" data="{{...searchBar}}"></template>
